@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+/*Généralités...*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
+}
+body
+{
+	font-family: Roboto;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-image: url("../images/background-618226_1280.png");
+    text-align:center;
+}
+table.p2, table.p3 a
+{
+text-align:center;
+}
+table.en-tete
+{ max-height : 90px;
+  min-width : auto;
+  text-align:center; /* alignement horizontal */
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid transparent;}
+table.p2
+{ border: 2px solid SeaGreen ;
+  width : auto;
+  text-align:center; /* alignement horizontal */
+  margin-left:auto;
+  margin-right:auto;}
+
+
+table.p3
+{ border: 2px solid SeaGreen ;
+  width : auto;
+  text-align:center; /* alignement horizontal */
+  margin-left:auto;
+  margin-right:auto;}
+
+table.p2 td, th
+{
+border: thin solid DarkSeaGreen;
+border-collapse: collapse
+width: auto;
+text-align:center;
+}
+table.p3 td, th
+{
+border: thin solid DarkSeaGreen;
+border-collapse: collapse
+width: 50%;
+text-align:center;
+}
+  
+div#container
+{
+  text-align:center; /* alignement horizontal */
+  min-width: 850px;
+  min-height : 50%;   
+  margin: auto;
+}
+div.leftside
+{ float : left;
+  min-width: 10%;
+  height: 100%;
+  margin-right: 5px;}
+div.rightside
+{ float : right;
+  min-width: 10%;
+  height: 100%;
+  margin-left: 5px;}
+div.content
+{  overflow: auto;
+   min-width: auto;
+   min-height : auto;
+   height: auto;      
+   border: 2px solid transparent;
+   border-radius: 10px;
+   color : DarkSlateGray ;
+   text-align:left;}
+div.rightside
+{ border: 2px solid gold;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 0; }
+div#map-canvas
+{  width: 100%;
+   min-height : 100%; 
+   border: 2px solid transparent;
+   text-align: center;}
+div#frame
+{  width: 100%;
+   min-height : 60%;
+   margin-top: 5%;
+   margin-left: auto ;
+   margin-right: auto ;
+   border: 2px solid transparent;
+   text-align: center;}
+iframe#frame
+ {
+ 	width: 100%;
+ 	height : 100%;
+ }
+div#weather
+{  width: 45%;
+   height : auto;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   margin-left: auto ;
+   margin-right: auto ;
+   border: 2px solid transparent;
+   border-radius: 0px;
+   background-color: #71B7E6;
+   text-align: center;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
